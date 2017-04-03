@@ -4,34 +4,47 @@
     <meta charset="UTF-8">
     <title>Tikect Add</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/test.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<script src="https://ajx.googleapis.com/ajx/libs/jquery/1.12.4/jquery.min.js"></script>
-<div class="jumbotron"></div>
-<div class="jumbotron"></div>
-<div class="jumbotron"></div>
 
-<div class="container">
+<div class="outer">
+    <div class="middle">
+        <div class="inner">
+            <div class="search_bar">
 
-    <input type="search" class="form-control" placeholder="Ticket Number">
+                <input type="search" class="form-control"  placeholder="Ticket Number"  >
 
-<button class="btn btn-default" type="submit">추가</button>
-<button class="btn btn-default" type="submit">목록</button>
+            </div>
+            <div class="add_button">
+                <button class="btn btn-default" type="submit" >추가</button>
+            </div>
+            <div class="list_button">
+                <button class="btn btn-default" type="submit">목록</button>
+            </div>
+        </div>
 
+        <div class="select_botton">
+            <div style="float: inherit">
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> RC
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> BIOS
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> IPMI
+                </label>
+            </div>
 
-
-
-    <label class="radio-inline">
-        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> RC
-    </label>
-    <label class="radio-inline">
-        <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> BIOS
-    </label>
-    <label class="radio-inline">
-        <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> IPMI
-    </label>
+        </div>
+    </div>
 </div>
+
+<script src="https://ajx.googleapis.com/ajx/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/test.js"></script>
+
 </body>
 </html>

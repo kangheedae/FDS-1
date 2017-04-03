@@ -1078,7 +1078,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  background-color: #FFFCFC;
 }
 input,
 button,
@@ -1389,8 +1389,8 @@ a.bg-danger:hover {
 }
 .page-header {
   padding-bottom: 9px;
-  margin: 40px 0 20px;
-  border-bottom: 1px solid #eee;
+  margin: 130px 0 20px;
+  border-bottom: 1px none #eee;
 }
 ul,
 ol {
@@ -2644,7 +2644,7 @@ input[type="search"] {
 .radio-inline + .radio-inline,
 .checkbox-inline + .checkbox-inline {
   margin-top: 0;
-  margin-left: 10px;
+  margin-left: 90px;
 }
 input[type="radio"][disabled],
 input[type="checkbox"][disabled],
@@ -2917,7 +2917,7 @@ select[multiple].form-group-lg .form-control {
   }
   .form-inline .radio label,
   .form-inline .checkbox label {
-    padding-left: 0;
+    padding-left: 00;
   }
   .form-inline .radio input[type="radio"],
   .form-inline .checkbox input[type="checkbox"] {
