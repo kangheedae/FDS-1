@@ -37,3 +37,108 @@
   top : 330px;
 
 }
+
+#imaginary_container{
+  margin-top:20%; /* Don't copy this */
+}
+.stylish-input-group .input-group-addon{
+  background: white !important;
+}
+.stylish-input-group .form-control{
+  border-right:0;
+  box-shadow:0 0 0;
+  border-color:#ccc;
+}
+.stylish-input-group button{
+  border:0;
+  background:transparent;
+}
+
+#custom-search-form {
+  margin:0;
+  margin-top: 5px;
+  padding: 0;
+}
+
+#custom-search-form .search-query {
+  padding-right: 3px;
+  padding-right: 4px \9;
+  padding-left: 3px;
+  padding-left: 4px \9;
+  /* IE7-8 doesn't have border-radius, so don't indent the padding */
+
+  margin-bottom: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+#custom-search-form button {
+  border: 0;
+  background: none;
+  /** belows styles are working good */
+  padding: 2px 5px;
+  margin-top: 2px;
+  position: relative;
+  left: -28px;
+  /* IE7-8 doesn't have border-radius, so don't indent the padding */
+  margin-bottom: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.search-query:focus + button {
+  z-index: 3;
+}
+#ct {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 200px;
+  top: 0;
+  margin: auto;
+  display: table;
+}
+#ct2 {
+  position: absolute;
+  left: 0;
+  right: 100px;
+  bottom: 100px;
+  top: 150px;
+  margin: auto;
+  display: table;
+}
+#ct3 {
+  position: absolute;
+  left: 0;
+  right: 30px;
+  bottom: 107px;
+  top: 50px;
+  margin: auto;
+  display: table;
+}
+.center {
+  margin-top:50px;
+}
+
+.modal-header {
+  padding-bottom: 5px;
+}
+
+.modal-footer {
+  padding: 0;
+}
+
+.modal-footer .btn-group button {
+  height:40px;
+  border-top-left-radius : 0;
+  border-top-right-radius : 0;
+  border: none;
+  border-right: 1px solid #ddd;
+}
+
+.modal-footer .btn-group:last-child > button {
+  border-right: 0;
+}
+

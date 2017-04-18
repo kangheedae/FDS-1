@@ -1579,7 +1579,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1500px;
   }
 }
 .container-fluid {
@@ -2966,7 +2966,7 @@ select[multiple].form-group-lg .form-control {
 }
 .btn {
   display: inline-block;
-  padding: 6px 12px;
+  padding: 6px 65px;
   margin-bottom: 0;
   font-size: 14px;
   font-weight: normal;
@@ -3330,10 +3330,11 @@ fieldset[disabled] .btn-link:focus {
 }
 .btn-sm,
 .btn-group-sm > .btn {
-  padding: 5px 10px;
+  padding: 8px 13px;
   font-size: 12px;
   line-height: 1.5;
   border-radius: 3px;
+  color : #333
 }
 .btn-xs,
 .btn-group-xs > .btn {
