@@ -95,7 +95,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 200px;
+  bottom: 250px;
   top: 0;
   margin: auto;
   display: table;
@@ -140,5 +140,12 @@
 
 .modal-footer .btn-group:last-child > button {
   border-right: 0;
+}
+.pagination{
+  display : block;
+  text-align : center;
+}
+.pagination > li > a {
+  float : none;
 }
 
