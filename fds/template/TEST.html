@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TEST12</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+
+<!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">Create</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">FDS Ticket Add</h4>
+            </div>
+            <div class="modal-body">
+
+                <!--Ticket Search bar -->
+                <div class="input-group stylish-input-group">
+                    <input type="text" class="form-control" placeholder="Ticket Number">
+                    <span class="input-group-addon">
+                        <button type="submit">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </span>
+                </div>
+
+                <br>
+
+                <!--Update Type -->
+                <p>Update Type</p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <label class="radio-inline">
+                                <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> RC
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                BIOS
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                IPMI
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+
+                <p>연관 CI</p>
+                <div class="container">
+
+                    <div class="container" style="text-align: center">
+                    <table class="table table-striped table-bordered table-hover">
+                        <thead>
+                        <tr>
+                            <th style="text-align: center">No.</th>
+                            <th style="text-align: center">자산번호</th>
+                            <th style="text-align: center">Hostname</th>
+                            <th style="text-align: center">벤더 명</th>
+                            <th style="text-align: center">장비 명</th>
+                            <th style="text-align: center">현재 버전</th>
+                            <th style="text-align: center">최신 버전</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>bs000123123</td>
+                            <td>ttest01.infra</td>
+                            <td>HP</td>
+                            <td>DL360 G9</td>
+                            <td>3.13</td>
+                            <td>3.50</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>bs000123124</td>
+                            <td>ttest02.infra</td>
+                            <td>HP</td>
+                            <td>DL380P G8</td>
+                            <td>1.00</td>
+                            <td>1.50</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>bs000123124</td>
+                            <td>ttest02.infra</td>
+                            <td>HP</td>
+                            <td>DL380P G8</td>
+                            <td>1.00</td>
+                            <td>1.50</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>bs000123125</td>
+                            <td>ttest02.infra</td>
+                            <td>HP</td>
+                            <td>DL380P G8</td>
+                            <td>1.00</td>
+                            <td>1.50</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>bs000123123</td>
+                            <td>ttest02.infra</td>
+                            <td>HP</td>
+                            <td>DL380P G8</td>
+                            <td>1.00</td>
+                            <td>1.50</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                </div>
+            </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">설치</button>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/test.js"></script>
+        <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
